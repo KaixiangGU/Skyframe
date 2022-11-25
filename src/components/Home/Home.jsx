@@ -1,12 +1,14 @@
 import React from "react";
 import Carousel from "../Carousel/Carousel";
 import Locations from "../Locations/Locations";
+import Post from "../Posts/Post";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mx-auto">
       <Carousel />
       <Locations />
+      <Post />
     </div>
   );
 };
